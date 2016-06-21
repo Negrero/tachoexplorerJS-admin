@@ -1,0 +1,37 @@
+{
+  "name": "tachoexplorer-admin",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node .",
+    "pretest": "jshint .",
+    "posttest": "nsp check"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "express": "^4.14.0",
+    "express-ws": "^1.0.0",
+    "helmet": "^1.3.0",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.4.0",
+    "loopback-datasource-juggler": "^2.39.0",
+    "pty": "0.0.0",
+    "pty.js": "^0.3.0",
+    "serve-favicon": "^2.0.1",
+    "socket.io": "^1.4.6",
+    "socket.io-redis": "^1.0.0",
+    "tty.js": "^0.2.15"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "tachoexplorer-admin"
+}
